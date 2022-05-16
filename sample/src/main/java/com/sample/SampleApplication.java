@@ -8,6 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaAuditing
 @SpringBootApplication
 @PropertySource(value = { "classpath:database/database.properties" })
+@PropertySource(value = { "classpath:graphql/graphql.properties" })
 public class SampleApplication {
 
 	public static void main(String[] args) {
