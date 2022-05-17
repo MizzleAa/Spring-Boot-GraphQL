@@ -1,0 +1,22 @@
+mutation{
+  create(
+    createUser: {
+      email:"email4"
+      password:"password"
+      name:"name"
+      age:10
+    }
+  ){
+    id
+    email
+  }
+}
+
+query{
+  read(
+    email:"email"
+  ){
+    id
+    email
+  }
+}

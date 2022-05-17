@@ -24,4 +24,5 @@ public class UserQuery implements GraphQLQueryResolver{
         return user.get();
     }
 
+    
 }
